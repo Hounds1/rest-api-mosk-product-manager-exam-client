@@ -1,0 +1,37 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test add page</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}">
+</head>
+<body>
+    <div class="container">
+       <div class="input-place">
+            <h4>카테고리</h4>
+            <input name="name" type="text" id="category-name">
+            <input name="description" type="text" id="category-description">
+            <button id="category-add" onclick="addCategory()">등록</button>
+       </div>
+        <div class="input-place">
+            <h4>상품</h4>
+            <input name="name" type="text" id="product-name">
+            <input name="description" type="text" id="product-description">
+            <input name="price" type="number" id="product-price">
+            <input name="categoryName" type="text" id="product-category-name">
+            <button id="product-add" onclick="addProduct()">등록</button>
+        </div>
+
+
+        <div class="test-area">
+
+        </div>
+    </div>
+
+<script type="text/javascript" th:src="@{/js/add.js}"></script>
+</body>
+</html>

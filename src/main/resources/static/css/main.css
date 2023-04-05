@@ -1,0 +1,12 @@
+body {
+    width: 1000px;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+}
+
+.input-place {
+    margin-top: 30px;
+}
